@@ -36,6 +36,7 @@ abc.style.fontWeight="bold";
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++*/
 var n=0;
+var m=0;
 function count1(){
 var z = document.getElementById('num1');
 z.innerHTML=n=n+5;
@@ -82,52 +83,52 @@ z.innerHTML=n=n-200;
 }
 /*BBBBBBBBBBBBBBBB*/
 function bcount1(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+5;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+5;
 }
 function bcount2(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+10;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+10;
 }
 function bcount3(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+50;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+50;
 }
 function bdcount1(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n-5;
+var x = document.getElementById('num2');
+x.innerHTML=m=m-5;
 }
 function bdcount2(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n-10;
+var x = document.getElementById('num2');
+x.innerHTML=m=m-10;
 }
 function bdcount3(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n-50;
+var x = document.getElementById('num2');
+x.innerHTML=m=m-50;
 }
 function bwwwin(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+300;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+300;
 }
 function bstichu(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+100;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+100;
 }
 function bbtichu(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n+200;
+var x = document.getElementById('num2');
+x.innerHTML=m=m+200;
 }
 function bfail(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n-100;
+var x = document.getElementById('num2');
+x.innerHTML=m=m-100;
 }
 function bgfail(){
-var z = document.getElementById('num2');
-z.innerHTML=n=n-200;
+var x = document.getElementById('num2');
+x.innerHTML=m=m-200;
 }
 function RE(){
 var z = document.getElementById('num1');
 var x = document.getElementById('num2');
 x.innerHTML=n=0;
-z.innerHTML=n=0;
+z.innerHTML=m=0;
 }
