@@ -10,85 +10,31 @@
   width: 100%;
   color: blue;
 }
-#word1{
+#word1 , #word2{
   text-align: center;
     font-size: 350%;
   width: 100%;
 }
-#word2{
-    text-align: center;
-    font-size: 350%;
-    width: 100%;
-}
-.redb1{
+
+.redb1,.redb2,.redb3{
   padding: 4%;
   font-size: 350%;
   padding: 10px;
   width: 33%;
   background-color: orange;
+  border-radius: 40px;
 }
-.redb2{
-  padding: 4%;
-  font-size: 350%;
-  padding: 10px;
-  width: 33%;
-  background-color: orange;
-}
-.redb3{
-  padding: 4%;
-  font-size: 350%;
-  padding: 10px;
-  width: 33%;
-  background-color: orange;
-}
-.count1{
+
+.count1,.count2,.count3,.dcount1,.dcount2,.dcount3{
   padding: 4%;
   font-size: 350%;
   margin-top: 10px;
   padding: 10px;
   width: 33%;
   background-color: pink;
+  border-radius: 40px;
 }
-.count2{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: pink;
-}
-.count3{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: pink;
-}
-.dcount1{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: pink;
-}
-.dcount2{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: pink;
-}
-.dcount3{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: pink;
-}
+
 .wwwin{
   padding: 4%;
   font-size: 350%;
@@ -96,108 +42,34 @@
   padding: 10px;
   width: 99%;
   background-color: pink;
+  border-radius: 40px;
 }
-.stichu{
+.stichu,.btichu,.fail,.gfail{
   padding: 4%;
   font-size: 350%;
   margin-top: 10px;
   padding: 10px;
   width: 49.5%;
   background-color: pink;
-}
-.btichu{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: pink;
-}
-.fail{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: pink;
-}
-.gfail{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: pink;
+  border-radius: 40px;
 }
 /*blue*/
-.greb1{
+.greb1,.greb2,.greb3{
   padding: 4%;
   font-size: 350%;
   padding: 10px;
   width: 33%;
   background-color: lightgreen;
+  border-radius: 40px;
 }
-.greb2{
-  padding: 4%;
-  font-size: 350%;
-  padding: 10px;
-  width: 33%;
-  background-color: lightgreen;
-}
-.greb3{
-  padding: 4%;
-  font-size: 350%;
-  padding: 10px;
-  width: 33%;
-  background-color: lightgreen;
-}
-.bcount1{
+.bcount1,.bcount2,.bcount3,.bdcount1,.bdcount2,.bdcount3{
   padding: 4%;
   font-size: 350%;
   margin-top: 10px;
   padding: 10px;
   width: 33%;
   background-color: lightblue;
-}
-.bcount2{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color:lightblue;
-}
-.bcount3{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: lightblue;
-}
-.bdcount1{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: lightblue;
-}
-.bdcount2{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color:lightblue;
-}
-.bdcount3{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 33%;
-  background-color: lightblue;
+  border-radius: 40px;
 }
 .bwwwin{
   padding: 4%;
@@ -206,45 +78,19 @@
   padding: 10px;
   width: 99%;
   background-color: lightblue;
+  border-radius: 40px;
 }
-.bstichu{
+.bstichu,.bbtichu,.bfail,.bgfail{
   padding: 4%;
   font-size: 350%;
   margin-top: 10px;
   padding: 10px;
   width: 49.5%;
   background-color: lightblue;
+  border-radius: 40px;
 }
-.bbtichu{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: lightblue;
-}
-.bfail{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: lightblue;
-}
-.bgfail{
-  padding: 4%;
-  font-size: 350%;
-  margin-top: 10px;
-  padding: 10px;
-  width: 49.5%;
-  background-color: lightblue;
-}
-.countairA{
+.countairA,.countairB{
 width: 100%;
-text-align: center;
-}
-.countairB{
-  width: 100%;
 text-align: center;
 }
 /*RENEW*/

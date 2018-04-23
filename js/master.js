@@ -1,130 +1,106 @@
-function change(){
+function change(n){
 var spanObj = document.getElementById('word1');
-spanObj.innerHTML="Nothing";
 spanObj.style.color="red";
 spanObj.style.fontWeight="bold";
+if (n==1){
+  spanObj.innerHTML="Nothing";
 }
-function change1(){
-var spanObj = document.getElementById('word1');
-spanObj.innerHTML="tichu";
-spanObj.style.color="red";
+else if (n==2) {
+  spanObj.innerHTML="tichu";
+}
+else if (n==3) {
+  spanObj.innerHTML="Big tichu";
+}
+}
+function bchange(n){
+var spanObj = document.getElementById('word2');
+spanObj.style.color="blue";
 spanObj.style.fontWeight="bold";
+if (n==1){
+  spanObj.innerHTML="Nothing";
 }
-function change2(){
-var spanObj = document.getElementById('word1');
-spanObj.innerHTML="Big tichu";
-spanObj.style.color="red";
-spanObj.style.fontWeight="bold";
+else if (n==2) {
+  spanObj.innerHTML="tichu";
 }
-function change4(){
-var abc = document.getElementById('word2');
-abc.innerHTML="Nothing";
-abc.style.color="blue";
-abc.style.fontWeight="bold";
+else if (n==3) {
+  spanObj.innerHTML="Big tichu";
 }
-function change5(){
-var abc = document.getElementById('word2');
-abc.innerHTML="tichu";
-abc.style.color="blue";
-abc.style.fontWeight="bold";
-}
-function change6(){
-var abc = document.getElementById('word2');
-abc.innerHTML="Big tichu";
-abc.style.color="blue";
-abc.style.fontWeight="bold";
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++*/
 var n=0;
 var m=0;
-function count1(){
+function count(a){
 var z = document.getElementById('num1');
+if (a==1){
 z.innerHTML=n=n+5;
 }
-function count2(){
-var z = document.getElementById('num1');
+else if (a==2) {
 z.innerHTML=n=n+10;
 }
-function count3(){
-var z = document.getElementById('num1');
+else if (a==3) {
 z.innerHTML=n=n+50;
 }
-function dcount1(){
-var z = document.getElementById('num1');
+else if (a==4) {
 z.innerHTML=n=n-5;
 }
-function dcount2(){
-var z = document.getElementById('num1');
+else if (a==5) {
 z.innerHTML=n=n-10;
 }
-function dcount3(){
-var z = document.getElementById('num1');
+else if (a==6) {
 z.innerHTML=n=n-50;
 }
-function wwwin(){
-var z = document.getElementById('num1');
+else if (a==7) {
 z.innerHTML=n=n+300;
 }
-function stichu(){
-var z = document.getElementById('num1');
+else if (a==8) {
 z.innerHTML=n=n+100;
 }
-function btichu(){
-var z = document.getElementById('num1');
+else if (a==9) {
 z.innerHTML=n=n+200;
 }
-function fail(){
-var z = document.getElementById('num1');
+else if (a==10) {
 z.innerHTML=n=n-100;
 }
-function gfail(){
-var z = document.getElementById('num1');
+else if (a==11) {
 z.innerHTML=n=n-200;
 }
+}
 /*BBBBBBBBBBBBBBBB*/
-function bcount1(){
+function bcount(b){
 var x = document.getElementById('num2');
+if (b==1){
 x.innerHTML=m=m+5;
 }
-function bcount2(){
-var x = document.getElementById('num2');
+else if (b==2) {
 x.innerHTML=m=m+10;
 }
-function bcount3(){
-var x = document.getElementById('num2');
+else if (b==3) {
 x.innerHTML=m=m+50;
 }
-function bdcount1(){
-var x = document.getElementById('num2');
+else if (b==4) {
 x.innerHTML=m=m-5;
 }
-function bdcount2(){
-var x = document.getElementById('num2');
+else if (b==5) {
 x.innerHTML=m=m-10;
 }
-function bdcount3(){
-var x = document.getElementById('num2');
+else if (b==6) {
 x.innerHTML=m=m-50;
 }
-function bwwwin(){
-var x = document.getElementById('num2');
+else if (b==7) {
 x.innerHTML=m=m+300;
 }
-function bstichu(){
-var x = document.getElementById('num2');
+else if (b==8) {
 x.innerHTML=m=m+100;
 }
-function bbtichu(){
-var x = document.getElementById('num2');
+else if (b==9) {
 x.innerHTML=m=m+200;
 }
-function bfail(){
-var x = document.getElementById('num2');
+else if (b==10) {
 x.innerHTML=m=m-100;
 }
-function bgfail(){
-var x = document.getElementById('num2');
+else if (b==11) {
 x.innerHTML=m=m-200;
+}
 }
 function RE(){
 var z = document.getElementById('num1');
